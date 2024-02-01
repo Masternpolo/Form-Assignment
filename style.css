@@ -101,14 +101,23 @@ h1{
         width: 100%;
     }
     #password, #password-confirmation {
-        background-position: 200px ;
+        background-position: 210px ;
     }
     #signup-google { 
-        background-position: 180px;
+        background-position: 190px;
         color: #000;
     }
     .last a {
         color: #fff;
         text-decoration: none;
+    }
+    @media screen and(max-width: 375) {
+        #password, #password-confirmation {
+            background-position: 200px ;
+        }
+        #signup-google { 
+            background-position: 180px;
+            color: #000;
+        }
     }
 }
