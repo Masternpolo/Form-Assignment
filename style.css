@@ -101,10 +101,10 @@ h1{
         width: 100%;
     }
     #password, #password-confirmation {
-        background-position: 210px ;
+        background-position: 200px ;
     }
     #signup-google { 
-        background-position: 190px;
+        background-position: 180px;
         color: #000;
     }
     .last a {
