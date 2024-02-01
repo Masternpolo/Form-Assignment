@@ -113,10 +113,10 @@ h2{
     }
     @media screen and(max-width: 375px) {
         #password, #password-confirmation {
-            background-position: 200px ;
+            background-position: 190px ;
         }
         #signup-google { 
-            background-position: 180px;
+            background-position: 170px;
             color: #000;
         }
     }
