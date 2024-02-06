@@ -8,8 +8,6 @@
 </head>
 <body>
     <div class="container">
-       
-
         <form action="">
             <h2>Create An Account</h2>
             <label for="fullname">
@@ -27,10 +25,12 @@
             <label for="password">
                 Password
                 <input type="password" name="password" id="password">
+                <span id="eye-icon" onclick="toggleEye()">👁️</span>
             </label>
             <label for="password-confirmation">
                 Password
                 <input type="password" name="password" id="password-confirmation">
+                <span id="eye-icon2" onclick="toggleEye2()">👁️</span>
             </label>
             <label for="signup">
                 <input type="button" value="Register" id="signup">
@@ -44,5 +44,6 @@
             </div>
         </form>
     </div>
+    <script src="./scrip.js"></script>
 </body>
 </html>

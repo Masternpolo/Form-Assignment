@@ -30,6 +30,13 @@ form {
 label {
     display: flex;
     flex-direction: column;
+    position: relative;
+}
+#eye-icon, #eye-icon2{
+    position: absolute;
+    top: 22px;
+    right: 7px;
+    cursor: pointer;
 }
 input {
     height: 30px;
@@ -61,10 +68,7 @@ h2{
     cursor: pointer;
 }
 #password, #password-confirmation {
-    background: #FFF url(./img/eye-slash.svg);
-    background-size: 16px 16px;
-    background-repeat: no-repeat;
-    background-position: 300px ;
+    background: #FFF;
 }
 .last {
     margin-top: 10px;
@@ -101,7 +105,7 @@ h2{
         width: 100%;
     }
     #password, #password-confirmation {
-        background-position: 215px ;
+        
     }
     #signup-google { 
         background-position: 190px;
